@@ -130,6 +130,9 @@ nav{
     position: absolute;
     top: 300px;
     left: 10vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .text1 a{
     text-decoration: none;
@@ -160,27 +163,27 @@ nav{
     color: #C08BFF;
 }
 .a{
-    width: 1200px;
+    width: 250px;
     position: absolute;
-    right: -240px;
+    right: -125px;
     top: 15vh;
 }
 .b{
-    width: 1200px;
+    width: 120px;
     position: absolute;
-    right: -240px;
-    top: 15vh;
+    right: 45px;
+    top: 35vh;
 }
 .c{
-    width: 1000px;
-    right: -150px;
-    top: 26vh;
+    width: 150px;
+    right: -180px;
+    top: 60vh;
     position: absolute;
 }
 .d{
-    width: 1000px;
-    right: -160px;
-    top: 20vh;
+    width: 140px;
+    right: -180px;
+    top: 25vh;
     position: absolute;
 }
 .scroll{
@@ -403,13 +406,12 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 500px;
+    height: 100px;
     width: 100vw;
     left: 0;
     right: 0;
     transform: rotateX(70deg);
     opacity: 0%;
-    border:1px solid #8959c4;
 }
 .middlebox{
     width: 100vw;
@@ -750,12 +752,13 @@ nav{
 }
 .xxbox{
     position: absolute;
-    width: 100vw;
-    height: 200px;
+    width: 1px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-align: center;
+    top: 10vh;
+    right: 30vw;
 }
 @media (max-width: 700px){
     .loginb{
@@ -766,24 +769,88 @@ nav{
     }
     .xxbox{
         transform: scale(0.7);
-        top: 20vh;
-        left: 20vw;
+        top: 25vh;
+        left: 50%;
+        transform: scale(0.7) translate(-50%, 0);
     }
     .text1{
         top: 15vh;
-        left: 10vw;
+        left: 50%;
+        width:1000px;
+        transform: translate(-50%, 0);
     }
     .text1 h2{
         display: none;
     }
     .text1 h5{
-        width: 80%;
-        font-size: 12px;
+        font-size: 8px;
     }
     #jquery{
         display: block;
         opacity: 100%;
-        font-size: 40px;
+        font-size: 30px;
+        margin-top: 10px;
     }
-
-}
+    .trend{
+        font-size: 50px;
+        width: 80%;
+    }
+    .features{
+        width: 70vw;
+        flex-wrap: wrap;
+    }
+    .feature1{
+        width: 100px;
+    }
+    .feature2{
+        width: 100px;
+    }
+    .feature3{
+        width: 100px;
+    }
+    .feature4{
+        width: 100px;
+    }
+    .features h5{
+        font-size: 12px;
+    }
+    .features p{
+        font-size: 8px;
+        margin-bottom: 40px;
+    }
+    .text3{
+        top:-20vh;
+    }
+    .text3 h2{
+        text-align: center;
+        font-size: 35px;
+        width: 80vw;
+    }
+    .text3 span{
+        display: none;
+    }
+    .box{
+        left:15vw;
+        top: 20vh;
+        transform: scale(0.6);
+    }
+    .text4{
+        top: -20vh;
+    }
+    .text4 h2{
+        text-align: center;
+        font-size: 35px;
+        width: 80vw;
+    }
+    .text4 span{
+        display: none;
+    }
+    .text4 a{
+        display: none;
+    }
+    .stakebox{
+        top: 0vh;
+        left: 15vw;
+        transform: scale(0.7);
+    }
+}  
